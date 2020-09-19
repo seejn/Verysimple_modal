@@ -22,10 +22,6 @@ button:active
 {
     display: none;
 }
-/*.headingContainer
-{
-    display: inline-block;
-}*/
 .heading
 {
     text-align: justify;
@@ -49,7 +45,7 @@ button:active
     position: absolute;
     top: 0;
 }
-.popup
+.modal .popup
 {
     height: 90vh;
     width: 80%;
@@ -58,38 +54,30 @@ button:active
     padding: 10px;
     background-color: lightgrey;
 }
-.header
+.modal .popup .header
 {
     height: 20%;
     background-color: crimson;
 }
-.close
+.modal .popup .header .close
 {
-    margin-right: 50px;
     float: right;
     cursor: pointer;
 }
-.close:active .line1
+.close:hover
 {
-   background-color: black;
+    background-color: rgba(0, 0, 0, 0.2);
 }
-.close:active .line2
+.close:active
 {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);    
 }
-.line1 , .line2
+.modal .popup .header .close .button
 {
-    height: 35px;
-    width: 3px;
-    background: white;
-}
-.line1
-{
-    transform: rotate(-45deg) translate(-2px , 25px);
-}
-.line2
-{
-    transform: rotate(45deg) translate(0 , -23px);
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 5px 10px;
 }
 @media screen and (max-width: 1190px)
 {
