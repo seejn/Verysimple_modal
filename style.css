@@ -18,10 +18,14 @@ button:active
 {
     border: 2px solid #4CAF50;
 }
-.headingContainer
+.one button
+{
+    display: none;
+}
+/*.headingContainer
 {
     display: inline-block;
-}
+}*/
 .heading
 {
     text-align: justify;
@@ -92,5 +96,13 @@ button:active
     .heading
     {
         width: 95%;
+    }
+    .one button
+    {
+        display: block;
+    }
+    .two button
+    {
+        display: none;
     }
 }
