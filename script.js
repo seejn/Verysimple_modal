@@ -10,7 +10,13 @@ const close = () =>
         modal.classList.toggle('modalActive');
         audio.play();
     });
-    button[0, 1].addEventListener("click", () =>
+    button[0].addEventListener("click", () =>
+    {
+        console.log('closebutton');
+        modal.classList.toggle('modalActive');
+        audio.play();
+    });
+    button[1].addEventListener("click", () =>
     {
         console.log('closebutton');
         modal.classList.toggle('modalActive');
