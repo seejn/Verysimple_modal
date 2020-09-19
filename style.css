@@ -1,0 +1,96 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button
+{
+    float: right;
+    background-color: transparent;
+    border-radius: 10%;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-color: green;
+    margin: 15px;  
+}
+button:active
+{
+    border: 2px solid #4CAF50;
+}
+.headingContainer
+{
+    display: inline-block;
+}
+.heading
+{
+    text-align: justify;
+    padding: 10px;
+    width: 48%;
+    margin: 2px;
+    float: left;
+}
+.modal
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: -100vh;
+    transition: all 0.3s ease-in-out;
+   animation: fadeAnimation;
+}
+.modalActive
+{
+    position: absolute;
+    top: 0;
+}
+.popup
+{
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+.header
+{
+    height: 20%;
+    background-color: crimson;
+}
+.close
+{
+    margin-right: 50px;
+    float: right;
+    cursor: pointer;
+}
+.close:active .line1
+{
+   background-color: black;
+}
+.close:active .line2
+{
+    background-color: black;
+}
+.line1 , .line2
+{
+    height: 35px;
+    width: 3px;
+    background: white;
+}
+.line1
+{
+    transform: rotate(-45deg) translate(-2px , 25px);
+}
+.line2
+{
+    transform: rotate(45deg) translate(0 , -23px);
+}
+@media screen and (max-width: 1199px)
+{
+    .heading
+    {
+        width: 95%;
+    }
+}
