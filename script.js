@@ -6,13 +6,11 @@ const close = () =>
     let audio = document.querySelector('audio');
     closebutton.addEventListener("click", () =>
     {
-        console.log('closebutton');
         modal.classList.toggle('modalActive');
         audio.play();
     });
     button.addEventListener("click", () =>
     {
-        console.log('closebutton');
         modal.classList.toggle('modalActive');
         audio.play();
     });

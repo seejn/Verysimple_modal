@@ -87,7 +87,7 @@ button:active
 {
     transform: rotate(45deg) translate(0 , -23px);
 }
-@media screen and (max-width: 1199px)
+@media screen and (max-width: 1190px)
 {
     .heading
     {
