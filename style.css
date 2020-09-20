@@ -64,6 +64,7 @@ button:active
     margin: 8px 10px 0 0;
     float: right;
     cursor: pointer;
+    user-select: none;
 }
 .close:hover
 {
@@ -80,7 +81,7 @@ button:active
     font-weight: bolder;
     margin: 5px 10px;
 }
-@media screen and (max-width: 1190px)
+@media screen and (max-width: 1199px)
 {
     .heading
     {
